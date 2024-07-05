@@ -46,7 +46,7 @@ const Home = () => {
             <img src={Mech} alt="MECHANICAl" className="h-20  rounded-3xl" />
           </div>
         <h2 className="text-2xl font-semibold mb-4 text-yellow ">Presents</h2>
-        <h3 className={`${isMobile?'text-4xl':'text-6xl'} font-bold mb-6 text-gold`}>{isMobile ? '¯\\_YANTRIK _/¯' : '¯\\_ YANTRIK-24 _/¯'}</h3>
+        <h3 className={`${isMobile?'text-3xl':'text-6xl'} font-bold mb-6 text-gold`}>{isMobile ? '¯\\_YANTRIK _/¯' : '¯\\_ YANTRIK-24 _/¯'}</h3>
         <div className="flex justify-center space-y-10">
             <img src={Yantrik} alt="Yantrik" className={`${isMobile?'h-16':'h-32'} rounded-3xl bg-[#bababa]`} />
           </div>
