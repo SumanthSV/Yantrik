@@ -22,7 +22,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <div className='bg' id="vanta" ref={vantaRef}  style={{ width: '100%', height: '92vh'}}>
+      <div className='bg' id="vanta" ref={vantaRef}  style={{ width: '100%', height: '92vh', backgroundColor:'black'}}>
         <Home />
       </div>
 

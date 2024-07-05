@@ -46,9 +46,9 @@ const Home = () => {
             <img src={Mech} alt="Byte Brigade Logo" className="h-20  rounded-3xl" />
           </div>
         <h2 className="text-2xl font-semibold mb-4 text-yellow ">Presents</h2>
-        <h3 className="text-6xl font-bold mb-6 text-gold">{isMobile ? '¯\\_YANTRIK _/¯' : '¯\\_ YANTRIK-24 _/¯'}</h3>
+        <h3 className={`${isMobile?'text-4xl':'text-6xl'} font-bold mb-6 text-gold`}>{isMobile ? '¯\\_YANTRIK _/¯' : '¯\\_ YANTRIK-24 _/¯'}</h3>
         <div className="flex justify-center space-y-10">
-            <img src={Yantrik} alt="Yantrik" className="h-32  rounded-3xl bg-[#bababa]" />
+            <img src={Yantrik} alt="Yantrik" className={`${isMobile?'h-24':'h-32'} rounded-3xl bg-[#bababa]`} />
           </div>
           <p className='text-2xl mb-6 text-yellow'>NATIONAL LEVEL TECHNICAL SYMPOSIUM</p>
           {/* <p className="text-xl mb-4 text-white">📅 12th JULY 2024, 9:00AM</p> */}
