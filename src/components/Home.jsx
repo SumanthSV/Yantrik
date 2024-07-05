@@ -43,14 +43,14 @@ const Home = () => {
         <div className="text-center md:text-center space-y-4">
           <h1 className={`${isMobile?'mt-10 text-2xl':'mt-0 text-4xl'}   font-bold mb-4 text-white`}>ROYAL-MECH FORUM</h1>
           <div className="flex justify-center space-y-10">
-            <img src={Mech} alt="MECHANICAl" className="h-20  rounded-3xl" />
+            <img src={Mech} alt="MECHANICAl" className={`${isMobile?'h-16':'h-20'} rounded-3xl`} />
           </div>
         <h2 className="text-2xl font-semibold mb-4 text-yellow ">Presents</h2>
-        <h3 className={`${isMobile?'text-3xl':'text-6xl'} font-bold mb-6 text-gold`}>{isMobile ? '¯\\_YANTRIK _/¯' : '¯\\_ YANTRIK-24 _/¯'}</h3>
+        <h3 className={`${isMobile?'text-[2.7rem]':'text-6xl'} font-bold mb-6 text-gold`}>{isMobile ? '¯\\_YANTRIK _/¯' : '¯\\_ YANTRIK-24 _/¯'}</h3>
         <div className="flex justify-center space-y-10">
-            <img src={Yantrik} alt="Yantrik" className={`${isMobile?'h-16':'h-32'} rounded-3xl bg-[#bababa]`} />
+            <img src={Yantrik} alt="Yantrik" className={`${isMobile?'h-20':'h-28'} rounded-3xl bg-[#bababa]`} />
           </div>
-          <p className='text-2xl mb-6 text-yellow'>NATIONAL LEVEL TECHNICAL SYMPOSIUM</p>
+          <p className={`font-mono ${isMobile?'text-lg':'text-xl'}  mb-6 text-yellow`}>NATIONAL LEVEL TECHNICAL SYMPOSIUM</p>
           {/* <p className="text-xl mb-4 text-white">📅 12th JULY 2024, 9:00AM</p> */}
           <p className="text-base mb-6 text-white">
             📍 Bapuji Institute of Engineering and Technology
